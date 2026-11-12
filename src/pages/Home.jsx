@@ -18,14 +18,6 @@ function Home() {
       </div>
 
       <div className="page">
-        {/* <h2>Popular Dishes</h2>
-        <div className="card">
-          <h3>Margherita Pizza - $12.99</h3>
-        </div>
-        <div className="card">
-          <h3>Chicken Alfredo - $18.99</h3>
-        </div> */}
-
         <h2>Popular Dishes</h2>
         <div className="dish-row">
           <div className="dish-card">

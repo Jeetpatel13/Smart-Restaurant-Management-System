@@ -7,9 +7,6 @@ function Cart() {
   const [deliveryWay, setDeliveryWay] = useState("");
 
   let total = 0;
-  //   data.cart.forEach((item) => {
-  //     total = total + item.price;
-  //   });
 
   for (let i = 0; i < data.cart.length; i++) {
     total = total + data.cart[i].price;

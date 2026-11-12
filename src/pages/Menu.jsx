@@ -28,18 +28,6 @@ function Menu() {
         <option>Drinks</option>
       </select>
 
-      {/* {filtered.map((item) => (
-        <div key={item.id} className="card">
-          <h3>
-            {item.name} - ${item.price}
-          </h3>
-          <p>{item.category}</p>
-          <button onClick={() => data.setCart([...data.cart, item])}>
-            Add to Cart
-          </button>
-        </div>
-      ))} */}
-
       <div className="menu-grid">
         {filtered.map((item) => (
           <div key={item.id} className="menu-card">

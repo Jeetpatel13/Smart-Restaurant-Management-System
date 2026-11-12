@@ -86,9 +86,6 @@ button {
   margin-bottom: 10px;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------- */
-
-/* ---------- MENU PAGE ---------- */
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -110,7 +107,6 @@ button {
   object-fit: cover;
 }
 
-/* ---------- HOME PAGE (Popular Dishes) ---------- */
 .dish-row {
   display: flex;
   gap: 15px;
