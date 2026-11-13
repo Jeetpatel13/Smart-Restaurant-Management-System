@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppProvider from "./AppProvider";
+import ChatBot from "./components/ChatBot";
 import Nav from "./components/Nav";
 import Admin from "./pages/Admin";
 import Cart from "./pages/Cart";
@@ -19,7 +20,7 @@ function App() {
           <Route path="/Reservation" element={<Reservation />} />
           <Route path="/Admin" element={<Admin />} />
         </Routes>
-        {/* <ChatBot /> */}
+        <ChatBot />
       </BrowserRouter>
     </AppProvider>
   );

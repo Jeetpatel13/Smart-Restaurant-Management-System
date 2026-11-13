@@ -50,7 +50,7 @@ export const chatData = [
     answer: "Based on popular orders, we recommend our Chicken Alfredo.",
   },
   {
-    keyword: "gluten",
+    keyword: "gluten-free",
     answer: "Yes. We offer gluten-free pasta and selected salads.",
   },
   {
