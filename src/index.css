@@ -125,3 +125,14 @@ button {
   height: 150px;
   object-fit: cover;
 }
+
+.chatbot {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid #c9a24d;
+  border-radius: 6px;
+  padding: 10px;
+}
