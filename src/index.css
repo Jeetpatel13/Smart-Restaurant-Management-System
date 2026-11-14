@@ -53,7 +53,7 @@ nav a {
 }
 
 .menu_page {
-  max-width: 90%;
+  max-width: 75%;
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
@@ -95,7 +95,7 @@ button {
 
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin-top: 15px;
 }
