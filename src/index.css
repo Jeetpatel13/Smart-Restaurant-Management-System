@@ -52,6 +52,13 @@ nav a {
   text-align: center;
 }
 
+.menu_page {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
 .admin-page {
   margin: 20px;
   text-align: center;
@@ -88,7 +95,7 @@ button {
 
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 2fr);
   gap: 15px;
   margin-top: 15px;
 }

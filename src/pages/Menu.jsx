@@ -13,7 +13,7 @@ function Menu() {
   );
 
   return (
-    <div className="page">
+    <div className="menu_page">
       <h1>Menu</h1>
       <input
         placeholder="Search..."
