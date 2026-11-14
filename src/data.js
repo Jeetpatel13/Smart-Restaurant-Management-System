@@ -34,6 +34,57 @@ export const menuItems = [
     price: 3.99,
     image: "src/images/Lemonade.jpg",
   },
+
+  {
+    id: 6,
+    name: "Vegetable Pasta",
+    category: "Main",
+    price: 14.99,
+    image: "src/images/Vegetable_Pasta.jpg",
+  },
+  {
+    id: 7,
+    name: "Garlic Bread",
+    category: "Starters",
+    price: 5.99,
+    image: "src/images/Garlic_Bread.jpg",
+  },
+  {
+    id: 8,
+    name: "Tiramisu",
+    category: "Desserts",
+    price: 8.49,
+    image: "src/images/Tiramisu.jpg",
+  },
+  {
+    id: 9,
+    name: "Iced Tea",
+    category: "Drinks",
+    price: 3.49,
+    image: "src/images/Iced_Tea.jpg",
+  },
+
+  {
+    id: 10,
+    name: "Caesar Salad",
+    category: "Starters",
+    price: 9.49,
+    image: "src/images/Caesar_Salad.jpg",
+  },
+  {
+    id: 11,
+    name: "Grilled Salmon",
+    category: "Main",
+    price: 21.99,
+    image: "src/images/Grilled_Salmon.jpg",
+  },
+  {
+    id: 12,
+    name: "Cheesecake",
+    category: "Desserts",
+    price: 7.49,
+    image: "src/images/Cheesecake.jpg",
+  },
 ];
 
 export const chatData = [
