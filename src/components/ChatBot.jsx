@@ -15,7 +15,7 @@ function ChatBot() {
     if (found) {
       setReply(found.answer);
     } else {
-      setReply("Sorry, Please try again...");
+      setReply("Sorry, Please try something else...");
     }
 
     setInput("");
