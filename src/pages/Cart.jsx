@@ -4,7 +4,7 @@ import { AppContext } from "../AppProvider";
 function Cart() {
   const data = useContext(AppContext);
 
-  const [deliveryWay, setDeliveryWay] = useState("");
+  const [deliveryWay, setDeliveryWay] = useState("Pickup");
 
   let total = 0;
 
