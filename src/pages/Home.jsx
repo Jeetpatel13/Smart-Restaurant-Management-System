@@ -1,9 +1,6 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { AppContext } from "../AppProvider";
 
 function Home() {
-  const data = useContext(AppContext);
   return (
     <div>
       <div className="hero">
