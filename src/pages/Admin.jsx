@@ -111,7 +111,8 @@ function Admin() {
           {data.reservations.map((r) => (
             <div key={r.id}>
               <p>
-                {r.name} - {r.date} - {r.time} - {r.guests} - {r.status}
+                {r.name} - {r.date} - {r.time} - {r.guests} - {r.type} -{" "}
+                {r.status}
               </p>
               <button onClick={() => reservationStatus(r.id, "Approved")}>
                 {" "}
