@@ -13,8 +13,8 @@ function Cart() {
     total.toFixed(2);
   }
 
-  function removeItem(id) {
-    data.setCart(data.cart.filter((item) => item.id != id));
+  function removeItem(index) {
+    data.setCart(data.cart.filter((item, i) => i != index));
   }
 
   function placeOrder() {
@@ -36,13 +36,13 @@ function Cart() {
       <h1>Cart</h1>
 
       <div className="menu-grid">
-        {data.cart.map((item) => (
-          <div key={item.id} className="menu-card">
+        {data.cart.map((item, index) => (
+          <div key={index} className="menu-card">
             <img src={item.image} />
             <p>
               {item.name} - {item.price} - {item.category}
             </p>
-            <button onClick={() => removeItem(item.id)}>Remove</button>
+            <button onClick={() => removeItem(index)}>Remove</button>
           </div>
         ))}
       </div>
