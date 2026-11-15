@@ -87,9 +87,12 @@ function Admin() {
           <h2>Orders</h2>
           {data.order.map((o) => (
             <div key={o.id}>
+              {o.items.map((entry) => (
+                <p key={entry.id}>{entry.name}</p>
+              ))}
+
               <p>
-                {o.items.length} items - {o.total} - {o.deliveryType} -{" "}
-                {o.status}
+                ${o.total} - {o.deliveryType} - {o.status}
               </p>
               <button onClick={() => orderStatus(o.id, "Ready")}>
                 {" "}
