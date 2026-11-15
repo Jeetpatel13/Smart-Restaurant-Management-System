@@ -10,7 +10,8 @@ function Cart() {
 
   for (let i = 0; i < data.cart.length; i++) {
     total = total + data.cart[i].price;
-    total.toFixed(2);
+    // total.toFixed(2);
+    total = Number(total.toFixed(2));
   }
 
   function removeItem(index) {
