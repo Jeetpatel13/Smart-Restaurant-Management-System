@@ -1,16 +1,25 @@
-# React + Vite
+# Smart Restaurant Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A restaurant web app for **SODV2201 – Web Programming** (Bow Valley College). This repo currently holds **Assignment 1: the React frontend**. The backend will be added in Assignment 2 and the final project.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Customer:** browse the menu, add items to the cart, place an order, book a reservation
+- **Admin:** dashboard to manage the restaurant
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React, Vite, React Router, Context API, CSS
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Jeetpatel13/Smart-Restaurant-Management-System.git
+cd Smart-Restaurant-Management-System
+npm install
+npm run dev
+```
+
+## Author
+
+Jeet Patel – Bow Valley College
